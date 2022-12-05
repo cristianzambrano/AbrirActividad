@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
     //Creamos la información a pasar entre actividades - Pares Key-Value
     Bundle b = new Bundle();
 
+
+
+    
     b.putString("NOMBRE", txtNombre.getText().toString());
         b.putString("APELLIDO", txtApelllido.getText().toString());
     //Añadimos la información al intent
