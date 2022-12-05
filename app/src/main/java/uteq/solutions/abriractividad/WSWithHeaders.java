@@ -56,7 +56,6 @@ public class WSWithHeaders extends AppCompatActivity implements Asynchtask
 
     }
     public void  btngooglevolley(View view){
-        // Instantiate the RequestQueue.
 
         RequestQueue queue = Volley.newRequestQueue(this);
         String url ="https://api-uat.kushkipagos.com/transfer/v1/bankList";
